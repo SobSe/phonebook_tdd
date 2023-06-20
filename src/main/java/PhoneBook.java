@@ -10,4 +10,8 @@ public class PhoneBook {
         byName.put(name, number);
         return byName.size();
     }
+
+    public String findByNumber(String number) {
+        return null;
+    }
 }
