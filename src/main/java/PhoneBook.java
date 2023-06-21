@@ -20,6 +20,6 @@ public class PhoneBook {
     }
 
     public void printAllNames() {
-
+        byName.forEach((k, v) -> System.out.println(k));
     }
 }
