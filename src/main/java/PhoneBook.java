@@ -18,4 +18,8 @@ public class PhoneBook {
     public String findByName(String number) {
         return byName.get(number);
     }
+
+    public void printAllNames() {
+
+    }
 }
